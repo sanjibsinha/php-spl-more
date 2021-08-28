@@ -18,7 +18,7 @@
 </hr>
 <?php
             
-            $file = new FilesystemIterator(__DIR__.'/all-files/images');
+            $file = new DirectoryIterator(__DIR__.'/all-files/images');
             foreach ($file as $value) {
                 # code...
                 if ($value->isFile()) {
@@ -27,21 +27,16 @@
                 
             }
             
-            ?>            
-
-</hr>
-</hr>
-
-<?php
-$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_PATHNAME);
-echo "Key as Pathname:</br>";
-foreach ($iterator as $key => $fileinfo) {
-    echo $key . "</br>";
-}
-
-$iterator->setFlags(FilesystemIterator::KEY_AS_FILENAME);
-echo "\nKey as Filename:\n";
-foreach ($iterator as $key => $fileinfo) {
-    echo $key . "</br>";
-}
-?>
+            ?>  
+            </br></br>
+            <?php
+            
+            $languages = array('JavaScript', 'C', 'PHP', 'C++', 'Python', 'Java');
+            $languages = new ArrayIterator($languages);
+            $languages->asort();
+            
+            foreach ($languages as $lang) {
+                echo $lang . '<br>';
+            }
+            
+            ?>

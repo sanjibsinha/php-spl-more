@@ -1,4 +1,9 @@
-# PHP-SPL
+# PHP-SPL-BOOK-Chapter-Five
+
+I've started writing a book on Standard PHP Library. This code snippet 
+includes everything I've used in chapter five.
+
+- [You'll get the book](https://leanpub.com/php8standardlibrary)
 
 A new PHP project on Standard Library Classes. It is designed to assist a book on the same sunject. 
 

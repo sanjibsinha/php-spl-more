@@ -37,6 +37,12 @@
           <a href="chapter-five/fileObject.php">Open file</a>
           </p>
           <p>
+          <a href="chapter-five/booksCSV.php">Special File Object</a>
+          </p>
+          <p>
+          <a href="chapter-six/arrayIterator.php">Array Iterator</a>
+          </p>
+          <p>
           <a href="test.php">Test</a>
           </p>
         
