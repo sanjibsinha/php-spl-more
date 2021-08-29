@@ -43,6 +43,9 @@
           <a href="chapter-six/arrayIterator.php">Array Iterator</a>
           </p>
           <p>
+          <a href="chapter-six/xmlIterator.php">XML Iterator</a>
+          </p>
+          <p>
           <a href="test.php">Test</a>
           </p>
         
